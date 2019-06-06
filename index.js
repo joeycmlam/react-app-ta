@@ -7,6 +7,7 @@ import PrimarySearchAppBar from './PrimarySearchAppBar'
 import TitlebarGridList from './TitlebarGridList';
 import TextMobileStepper from './TextMobileStepper';
 import * as serviceWorker from './serviceWorker';
+import Dashboard from './Dashboard';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<App />, document.querySelector('#app'));

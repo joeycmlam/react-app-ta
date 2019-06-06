@@ -1,0 +1,6 @@
+.component-product-result-row img {
+    flex: 1;
+    width: 25%;
+    height: 25%;
+    resize: both;
+}
