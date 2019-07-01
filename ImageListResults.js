@@ -9,6 +9,14 @@ export default class ImageListResults extends PureComponent {
     imageData: PropTypes.array
   };
 
+
+  getModelList() {
+    fetch('http://ec2-34-221-74-184.us-west-2.compute.amazonaws.com/get_concepts')
+        .then(res => res.json())
+        .then((data) => {
+          this.setState({imageData: data})}).catch(console.log)
+  }
+
   render() {
     return (
       <div className="component-image-results">
